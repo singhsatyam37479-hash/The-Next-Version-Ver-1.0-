@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Next Version</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f1e8;
+            color: #302820;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #302820;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            color: #e9a45b;
+            margin-top: 5px;
+        }
+
+        nav {
+            background-color: #a85d32;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffe0b5;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background-color: #ead7c1;
+        }
+
+        .hero h2 {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 17px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: #fffaf3;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #a85d32;
+            margin-bottom: 15px;
+        }
+
+        .quote {
+            background-color: #f3dfc8;
+            padding: 20px;
+            text-align: center;
+            font-size: 19px;
+            font-style: italic;
+            border-left: 4px solid #a85d32;
+        }
+
+        .quote p {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .goals {
+            list-style: none;
+        }
+
+        .goals li {
+            background-color: #f7eee3;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .goals input {
+            margin-right: 10px;
+        }
+
+        .about p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #302820;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .hero h2 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>THE NEXT VERSION</h1>
+        <p>A little better than yesterday.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#motivation">Motivation</a>
+        <a href="#goals">Daily Goals</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h2>Become Who You Want To Be</h2>
+        <p>Your future is built by what you do today.</p>
+    </div>
+
+    <div class="container">
+
+        <section id="motivation">
+            <h2>A Thought To Remember</h2>
+
+            <div class="quote">
+                "You do not have to see the whole staircase. Just take the first step."
+
+                <p>Small steps still move you forward.</p>
+            </div>
+        </section>
+
+        <section id="goals">
+            <h2>My Daily Goals</h2>
+
+            <ul class="goals">
+                <li>
+                    <input type="checkbox">
+                    Read something new today
+                </li>
+
+                <li>
+                    <input type="checkbox">
+                    Learn one new skill
+                </li>
+
+                <li>
+                    <input type="checkbox">
+                    Spend time on personal growth
+                </li>
+
+                <li>
+                    <input type="checkbox">
+                    Take care of my health
+                </li>
+
+                <li>
+                    <input type="checkbox">
+                    Do something that challenges me
+                </li>
+            </ul>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About This Page</h2>
+
+            <p>
+                Welcome to The Next Version, a space dedicated to
+                personal growth and becoming a better version of yourself.
+            </p>
+
+            <p>
+                Progress does not always have to be big.
+                Sometimes, showing up and trying again is enough.
+            </p>
+
+            <p>
+                Remember, you are allowed to grow at your own pace.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 The Next Version | Keep Growing. Keep Becoming.</p>
+    </footer>
+
+</body>
+</html>
